@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ExRE</string>
+    <string name="title_activity_main">ExRE</string>
+    <string name="package_name">com.ejemplo.exre</string>
+    <string name="custom_url_scheme">com.ejemplo.exre</string>
+</resources>

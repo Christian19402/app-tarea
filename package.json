@@ -1,0 +1,23 @@
+{
+  "name": "exre",
+  "version": "1.0.0",
+  "description": "ExRE - catálogo de recursos de aprendizaje (Capacitor + JS puro)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "sync": "npm run build && npx cap sync android",
+    "android": "npm run build && npx cap sync android && npx cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/poppins": "^5.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "esbuild": "^0.25.0"
+  }
+}

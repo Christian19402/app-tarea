@@ -1,0 +1,8 @@
+{
+  "appId": "com.ejemplo.exre",
+  "appName": "ExRE",
+  "webDir": "www",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "auto"
+  }
+}
